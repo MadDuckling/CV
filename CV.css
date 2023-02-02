@@ -25,13 +25,13 @@ body{
 }
 #braddPicture{
     grid-area: a;
-    display: grid;
+    margin-left: auto;
+    margin-right: auto;
     height: 400px;
     padding-right: 20px;
 }
 #braddText{
     grid-area: b;
-    display: grid;
     min-width: 400px;
 }
 #cv{
@@ -70,15 +70,12 @@ body{
 }
 #braddTextA{
     grid-area: a;
-    display: grid;
 }
 #braddTextB{
     grid-area: b;
-    display: grid;
 }
 #braddTextC{
     grid-area: c;
-    display: grid;
 }
 
 .listHandler{
@@ -87,11 +84,9 @@ body{
 }
 #movieList{
     grid-area: a;
-    display: grid;
 }
 #awardList{
     grid-area: b;
-    display: grid;
 }
 @media (max-width: 500px){
     .listHandler{
@@ -100,4 +95,12 @@ body{
             "a"
             "b" / 1fr;
     }
+}
+
+#contactInfo{
+    border-top-width: 2px;
+    border-top-style: solid;
+    padding-top: 15px;
+
+    border-color: hsl(40, 50%, 60%);
 }
